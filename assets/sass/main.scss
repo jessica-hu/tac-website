@@ -94,6 +94,10 @@
 		margin: 0 0 2em 0;
 	}
 
+    p {
+        padding:10px;
+    }
+
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
@@ -1048,9 +1052,6 @@
 		/* Section/Article */
 
 			header {
-				br {
-					display: none;
-				}
 
 				&.major {
 					padding-bottom: 1em;
@@ -1074,12 +1075,7 @@
 				margin-bottom: 3em;
 				padding: 3em 2.5em;
 
-				&.special {
-					br {
-						display: none;
-					}
-				}
-
+				&.special 
 				&.style1 {
 					padding: 0 2.5em;
 				}
@@ -1527,9 +1523,6 @@
 						text-align: center;
 					}
 
-					br {
-						display: none;
-					}
 				}
 			}
 

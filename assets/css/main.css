@@ -1227,6 +1227,9 @@ strong, b {
 p, ul, ol, dl, table, blockquote {
   margin: 0 0 2em 0; }
 
+p {
+  padding: 10px; }
+
 h1, h2, h3, h4, h5, h6 {
   color: inherit;
   font-weight: 300;
@@ -1942,8 +1945,6 @@ body.index #main {
     line-height: 1.5em; }
 
   /* Section/Article */
-  header br {
-    display: none; }
   header.major {
     padding-bottom: 1em; }
   header.special {
@@ -1957,8 +1958,7 @@ body.index #main {
   .wrapper {
     margin-bottom: 3em;
     padding: 3em 2.5em; }
-    .wrapper.special br {
-      display: none; }
+    .wrapper.special
     .wrapper.style1 {
       padding: 0 2.5em; }
     .wrapper.style2 {
@@ -2288,8 +2288,6 @@ body.index #main {
         font-size: 1.5em; }
       #banner .inner p {
         text-align: center; }
-      #banner .inner br {
-        display: none; }
 
   /* Main */
   #main {
